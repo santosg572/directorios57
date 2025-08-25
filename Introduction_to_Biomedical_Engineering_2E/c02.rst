@@ -1,0 +1,554 @@
+2
+
+MORAL AND ETHICAL ISSUES
+
+Joseph Bronzino PhD, PE
+
+Chapter Contents
+
+2.1 Morality and Ethics: A Definition of Terms
+
+2.2 Two Moral Norms: Beneficence and Nonmaleficence
+
+2.3 Redefining Death
+
+2.4 The Terminally Ill Patient and Euthanasia
+
+2.5 Taking Control
+
+2.6 Human Experimentation
+
+2.7 Definition and Purpose of Experimentation
+
+2.8 Informed Consent
+
+2.8.1 Basic Principles
+
+2.8.2 Medical Research Combined with Professional Care (Clinical Research)
+
+2.8.3 Nontherapeutic Biomedical Research Involving Human Subjects (Nonclinical Biomedical Research)
+
+2.9 Regulation of Medical Device Innovation
+
+2.10 Marketing Medical Devices
+
+2.11 Ethical Issues in Feasibility Studies
+
+2.12 Ethical Issues in Emergency Use
+
+2.13 Ethical Issues in Treatment Use
+
+2.14 The Role of the Biomedical Engineer in the FDA Process Exercises Suggested Reading
+
+After completing this chapter, students will be able to:
+
+& &
+
+&
+
+&
+
+&
+
+Deﬁne and distinguish between the terms morals and ethics.
+
+Present the rationale underlying two major philosophical schools of thought: utilitarianism and 
+nonconsequentialism.
+
+Present the codes of ethics for the medical profession, nursing profession, and biomedical engineering.
+
+Identify the modern moral dilemmas, including redeﬁning death, deciding how to care for the terminally ill, 
+and experimentation on humans, which arise from the two moral norms: beneﬁcence (the provision of beneﬁts) 
+and nonmaleﬁcence (the avoidance of harm).
+
+Discuss the moral judgments associated with present policies regarding the regulation of the development and 
+use of new medical devices.
+
+The tremendous infusion of technology into the practice of medicine has created a new medical era. Advances 
+in material science have led to the production of artiﬁcial limbs, heart valves, and blood vessels, thereby 
+permitting ‘‘spare-parts’’ surgery. Numerous patient disorders are now routinely diagnosed using a wide 
+range of highly sophisticated imaging devices, and the lives of many patients are being extended through 
+signiﬁcant improvements in resuscitative and supportive devices such as respirators, pacemakers, and 
+artiﬁcial kidneys.
+
+These technological advances, however, have not been entirely benign. They have had signiﬁcant moral 
+consequences. Provided with the ability to develop cardiovascular assist devices, perform organ transplants, 
+and maintain the breathing and heartbeat of terminally ill patients, society has been forced to reexamine 
+the meaning of such terms as death, quality of life, heroic efforts, and acts of mercy, and consider such 
+moral issues as the right of patients to refuse treatment (living wills) and to participate in experiments 
+(informed consent). As a result, these technological advances have made the moral dimensions of health care 
+more complex, and have posed new and troubling moral dilemmas for medical professionals, biomedical 
+engineers, and society at large.
+
+The purpose of this chapter is to examine some of the moral questions related to the use of new medical 
+technologies. The objective, however, is not to provide solutions or recommendations for these questions. 
+Rather, the intent is to demonstrate that each technological advance has consequences that affect the very 
+core of human values.
+
+Technology and ethics are not foreigners; they are neighbors in the world of human accomplishment. 
+Technology is a human achievement of extraordinary ingenuity and utility and is quite distant from the human 
+accomplishment of ethical values. They face each other, rather than interface. The personal face of ethics 
+looks at the impersonal face of technology to comprehend technology’s potential and its limits. The face of 
+technology looks to ethics to be directed to human purposes and beneﬁts.
+
+In the process of making technology and ethics face each other, it is our hope that individuals engaged in 
+the development of new medical devices, as well as those responsible for the care of patients, will be 
+stimulated to examine and evaluate critically ‘‘accepted’’ views and to reach their own conclusions. This 
+chapter, there-
+
+fore, begins with some deﬁnitions related to morality and ethics, followed by a more detailed discussion of 
+some of the moral issues of special importance to biomedical engineers.
+
+2.1 MORALITY AND ETHICS: A DEFINITION OF TERMS
+
+From the very beginning, individuals have raised concerns about the nature of life and its signiﬁcance. 
+Many of these concerns have been incorporated into the four fundamental questions posed by the German 
+philosopher Immanuel Kant (1724–1804): What can I know? What ought I to do? What can I hope? What is man? 
+Evidence that early societies raised these questions can be found in the generation of rather complex codes 
+of conduct embedded in the customs of the earliest human social organization, the tribe. By 600 BC , the 
+Greeks were successful in reducing many primitive speculations, attitudes, and views on these questions to 
+some type of order or system and integrating them into the general body of wisdom called philosophy. Being 
+seafarers and colonizers, the Greeks had close contact with many different peoples and cultures. In the 
+process, struck by the variety of customs, laws, and institutions that prevailed in the societies that 
+surrounded them, they began to examine and compare all human conduct in these societies. This part of 
+philosophy they called ethics.
+
+The term ethics comes from the Greek ethos, meaning ‘‘custom.’’ On the other hand, the Latin word for custom 
+is mos, and its plural, mores, is the equivalent of the Greek ethos and the root of the words moral and 
+morality. Although both terms (ethics and morality) are often used interchangeably, there is a distinction 
+between them that should be made.
+
+Philosophers deﬁne ethics as a particular kind of study and use morality to refer to its subject matter. 
+For example, customs that result from some abiding principal human interaction are called morals. Some 
+examples of morals in our society are telling the truth, paying one’s debts, honoring one’s parents, and 
+respecting the rights and property of others. Most members of society usually consider such conduct not only 
+customary but also correct or right. Thus, morality encompasses what people believe to be right and good and 
+the reasons they give for it.
+
+Most of us follow these rules of conduct and adjust our lifestyles in accordance with the principles they 
+represent. Many even sacriﬁce life itself rather than diverge from them, applying them not only to their 
+own conduct, but also to the behavior of others. Individuals who disregard these accepted codes of conduct 
+are considered deviants and, in many cases, are punished for engaging in an activity that society as a whole 
+considers unacceptable. For example, individuals committing ‘‘criminal acts’’ (deﬁned by society) are often 
+‘‘outlawed’’ and, in many cases, severely punished. These judgments regarding codes of conduct, however, are 
+not inﬂexible; they must continually be modiﬁed to ﬁt changing conditions and thereby avoid the trauma of 
+revolution as the vehicle for change.
+
+Morality represents the codes of conduct of a society, but ethics is the study of right and wrong, of good 
+and evil in human conduct. Ethics is not concerned with providing any judgments or speciﬁc rules for human 
+behavior, but rather with providing an
+
+objective analysis about what individuals ‘‘ought to do.’’ Deﬁned in this way, it represents the 
+philosophical view of morals, and, therefore, is often referred to as moral philosophy.
+
+Consider the following three questions: (1) Should badly deformed infants be kept alive?; (2) Should 
+treatment be stopped to allow a terminally ill patient to die?; (3) Should humans be used in experiments? 
+Are these questions of morality or ethics? In terms of the deﬁnitions just provided, all three of these 
+inquiries are questions of moral judgment.
+
+Philosophers argue that all moral judgments are considered to be normative judgments, which can be 
+recognized simply by their characteristic evaluative terms such as good, bad, right, or wrong. Typical 
+normative judgments include
+
+& & &
+
+Stealing is wrong.
+
+Everyone ought to have access to an education. Voluntary euthanasia should not be legalized.
+
+Each of these judgments expresses an evaluation (i.e., conveys a negative or positive attitude toward some 
+state of affairs). Each, therefore, is intended to play an actionguiding function.
+
+Arriving at moral judgments, however, requires knowledge of valid moral standards in our society. How is 
+such knowledge obtained? The efforts to answer this question lie in two competing schools of thought that 
+currently dominate normative ethical theory: utilitarianism, a form of consequentialism, and Kantianism, a 
+form of nonconsequentialism. Consequentialism holds that the morally right action is always the one among 
+the available options that has the best consequences. An important implication of consequentialism is that 
+no speciﬁc actions or courses of conduct are automatically ruled out as immoral or ruled in as morally 
+obligatory. The rightness or wrongness of an action is wholly contingent upon its effects.
+
+According to utilitarianism, there are two steps to determining what ought to be done in any situation. 
+First, determine which courses of action are open. Second, determine the consequences of each alternative. 
+When this has been accomplished, the morally right course of action is the one that maximizes pleasure, 
+minimizes pain, or both; the one that does the ‘‘greatest good for the greatest number.’’ Because the 
+central motivation driving the design, development, and use of medical devices is improvement of medicine’s 
+capacity to protect and restore health, an obvious virtue of utilitarianism is that it assesses medical 
+technology in terms of what many believe makes health valuable: the attainment of well-being and the 
+avoidance of pain.
+
+Utilitarianism, therefore, advocates that the end justiﬁes the means. As long as any form of treatment 
+maximizes good consequences, it should be used. Many people, though, believe that the end does not always 
+justify the means and that individuals have rights that are not to be violated no matter how good the 
+consequences might be.
+
+In opposition to utilitarianism stands the school of normative ethical thought known as nonconsequentialism. 
+Proponents of this school deny that moral evaluation is simply and wholly a matter of determining the 
+consequences of human conduct. They agree that other considerations are relevant to moral assessment and so 
+reject the view that morally right conduct is whatever has the best consequences. Based largely on the views 
+of Immanuel Kant, this ethical school of thought insists that there
+
+is something uniquely precious about human beings from the moral point of view. According to Kant’s theory, 
+humans have certain rights that do not apply to any other animal. For example, the moral judgments that we 
+should not kill and eat each other for food or hunt each other for sport or experiment on each other for 
+medical science are all based on this view of human rights. Humans are, in short, owed a special kind of 
+respect simply because they are people.
+
+To better understand the Kantian perspective, it may be helpful to recognize that Kant’s views are an 
+attempt to capture in secular form a basic tenet of Christian morality. What makes human beings morally 
+special entities deserving a unique type of respect? Christianity answers in terms of the doctrine of 
+ensoulment. This doctrine holds that only human beings are divinely endowed with an eternal soul. According 
+to Christian ethics, the soul makes humans the only beings with intrinsic value. Kant’s secular version of 
+the doctrine of ensoulment asserts that human beings are morally unique and deserve special respect because 
+of their autonomy. Autonomy is taken by Kant to be the capacity to make choices based on rational 
+deliberation. The central task of ethics then is to specify what human conduct is required to respect the 
+unique dignity of human beings. For most Kantians, this means determining what limits human beings must 
+observe in the way they treat each other and this, in turn, is taken to be a matter of specifying each 
+individual’s fundamental moral rights.
+
+These two ethical schools of thought, therefore, provide some rationale for moral judgments. However, when 
+there is no clear moral judgment, one is faced with a dilemma. In medicine, moral dilemmas arise in those 
+situations that raise fundamental questions about right and wrong in the treatment of sickness and the 
+promotion of health in patients. In many of these situations the health professional faces two alternative 
+choices, neither of which seems to be a satisfactory solution to the problem. For example, is it more 
+important to preserve life or prevent pain? Is it right to withhold treatment when doing so may lead to a 
+shortening of life? Does an individual have the right to refuse treatment when refusing it may lead to 
+death? All these situations seem to have no clear-cut imperative based on our present set of convictions 
+about right and wrong. That is the dilemma raised by Kant: what ought I do?
+
+Case Study: Stem Cell Research
+
+At the moment of conception, that is to say when sperm unites with egg, the process of fertilization occurs 
+(Fig 2.1). The formation of an embryo is initiated. Once the sperm enters the egg, there is an immediate 
+opening of ion channels, which depolarizes the plasma membrane of the cell, and prevents other sperm from 
+fusing with it. DNA replication then begins, and the ﬁrst cell division occurs approximately 36 hours 
+later. As the process continues, the cell begins to experience cleavage, in which the cells repeatedly 
+divide, cycling between the S (DNA synthesis) and M (mitosis) phases of cell division, essentially skipping 
+the G 1 and G 2 phases, when most cell growth normally occurs. Thus, there is no net growth of the cells, 
+merely subdivision into smaller cells, individually called blastomeres.
+
+Five days subsequent to fertilization, the number of cells composing the embryo is in the hundreds, and the 
+cells form tight junctions characteristic of a compact epithelium, which is arranged around a central 
+cavity. This is the embryonic stage known as the blastocyst. Within the cavity exists a mass of cells that 
+protrude inward. These cells are known as the inner cell mass and become the embryo. The exterior cells are 
+the trophoblast and eventually form the placenta. It is the cells from the inner cell mass of the blastocyst 
+that, when isolated and grown in a culture, are identiﬁed as embryonic stem cells.
+
+It is important to note that if cell division continues, determination and differentiation happen. 
+Differentiation occurs when a cell begins to exhibit the speciﬁc attributes of a predestined specialized 
+cellular role. Determination is related to differentiation, but is somewhat dissimilar. When a cell group 
+that has been determined is transplanted, it will not assimilate with the other cells, but will rather grow 
+into cells that comprised the original organ it was destined to become.
+
+Because the process of obtaining embryonic stem cells destroys the embryo, the following questions arise:
+
+Is the embryo a living human being, entitled to all of the same rights that a human at any other age would 
+be granted? Discuss the answer to this question from a utilitarian and a Kantian point of view.
+
+Should any research that is potentially beneﬁcial to the well-being of mankind be pursued?
+
+Should the federal government support such research?
+
+In the practice of medicine, moral dilemmas are certainly not new. They have been present throughout medical 
+history. As a result, over the years there have been efforts to provide a set of guidelines for those 
+responsible for patient care. These efforts have resulted in the development of speciﬁc codes of 
+professional conduct. Let us examine some of these codes or guidelines.
+
+For the medical profession, the World Medical Association adopted a version of the Hippocratic oath entitled 
+the Geneva Convention Code of Medical Ethics in 1949. This declaration contains the following statements:
+
+I solemnly pledge myself to consecrate my life to the services of humanity; I will give to my teachers the 
+respect and gratitude which is their due; I will practice my profession with conscience and dignity; The 
+health of my patient will be my ﬁrst consideration; I will respect the secrets which are conﬁded in me; I 
+will maintain by all the means in my power, the honour and the noble traditions of the medical profession; 
+My colleagues will be my brothers; I will not permit considerations of religion, nationality, race, party 
+politics or social standing to intervene between my duty and my patient; I will maintain the utmost respect 
+for human life from the time of conception; even under threat; I will not use my medical knowledge contrary 
+to the laws of humanity; I make these promises solemnly, freely and upon my honour.
+
+In the United States, the American Medical Association (AMA) adopted a set of Principles of Medical Ethics 
+in 1980, and revised them in June, 2001. Following is a comparison of the two sets of principles.
+
+For the nursing profession, the American Nurses Association formally adopted in 1976 the Code For Nurses, 
+whose statements and interpretations provide guidance for conduct and relationships in carrying out nursing 
+responsibilities.
+
+PREAMBLE: The Code for Nurses is based on belief about the nature of individuals, nursing, health, and 
+society. Recipients and providers of nursing services are viewed as individuals and groups who possess basic 
+rights and responsibilities, and whose values and circumstances command respect at all times. Nursing 
+encompasses the promotion and restoration of health, the prevention of illness, and the alleviation of 
+suffering. The statements of the Code and their interpretation provide guidance for conduct and
+
+relationships in carrying out nursing responsibilities consistent with the ethical obligations of the 
+profession and quality in nursing care.
+
+1. The nurse provides services with respect for human dignity and the uniqueness of the client unrestricted 
+by considerations of social or economic status, personal attributes, or the nature of health problems.
+
+2. The nurse safeguards the client’s right to privacy by judiciously protecting information of a 
+conﬁdential nature.
+
+3. The nurse acts to safeguard the client and the public when health care and safety are affected by the 
+incompetent, unethical, or illegal practice of any person.
+
+4. The nurse assumes responsibility and accountability for individual nursing judgments and actions.
+
+5. The nurse maintains competence in nursing.
+
+6. The nurse exercises informed judgment and uses individual competence and qualiﬁcations as criteria in 
+seeking consultation, accepting responsibilities, and delegating nursing activities to others.
+
+7. The nurse participates in activities that contribute to the ongoing development of the profession’s body 
+of knowledge.
+
+8. The nurse participates in the profession’s efforts to implement and improve standards of nursing.
+
+9. The nurse participates in the profession’s efforts to establish and maintain conditions of employment 
+conducive to high-quality nursing care.
+
+10. The nurse participates in the profession’s effort to protect the public from misinformation and 
+misrepresentation and to maintain the integrity of nursing.
+
+11. The nurse collaborates with members of the health professions and other citizens in promoting community 
+and national efforts to meet the health needs of the public.
+
+These codes take as their guiding principle the concepts of service to humankind and respect for human life. 
+When reading these codes of conduct, it is difﬁcult to imagine that anyone could improve on them as summary 
+statements of the primary goals of individuals responsible for the care of patients. However, some believe 
+that such codes fail to provide answers to many of the difﬁcult moral dilemmas confronting health 
+professionals today. For example, in many situations, all the fundamental responsibilities of the nurse 
+cannot be met at the same time. When a patient suffering from a massive insult to the brain is kept alive by 
+artiﬁcial means and this equipment is needed elsewhere, it is not clear from these guidelines how ‘‘nursing 
+competence is to be maintained to conserve life and promote health.’’ Although it may be argued that the 
+decision to treat or not to treat is a medical and not a nursing decision, both professions are so 
+intimately involved in the care of patients that they are both concerned with the ultimate implications of 
+any such decision.
+
+For biomedical engineers, an increased awareness of the ethical signiﬁcance of their professional 
+activities has also resulted in the development of codes of professional ethics. Typically consisting of a 
+short list of general rules, these codes express both the minimal standards to which all members of a 
+profession are expected to conform and the ideals for which all members are expected to strive. Such codes 
+provide a practical guide for the ethical conduct of the profession’s practitioners. Consider, for example, 
+the code of ethics endorsed by the American College of Clinical Engineers:
+
+As a member of the American College of Clinical Engineering, I subscribe to the established Code of Ethics 
+in that I will:
+
+&
+
+& & & & &
+
+&
+
+Accurately represent my level of responsibility, authority, experience, knowledge, and education.
+
+Strive to prevent a person from being placed at risk due to the use of technology. Reveal conﬂicts of 
+interest that may affect information provided or received. Respect the conﬁdentiality of information.
+
+Work toward improving the delivery of health care.
+
+Work toward the containment of costs by the better management and utilization of technology.
+
+Promote the profession of clinical engineering.
+
+Although these codes can be useful in promoting ethical conduct, such rules obviously cannot provide ethical 
+guidance in every situation. A profession that aims to maximize the ethical conduct of its members must not 
+limit the ethical consciousness of its members to knowledge of their professional code alone. It must also 
+provide them with resources that will enable them to determine what the code requires in a particular 
+concrete situation, and thereby enable them to arrive at ethically sound judgments in situations in which 
+the directives of the code are ambiguous or simply do not apply.
+
+2.2 TWO MORAL NORMS: BENEFICENCE AND NONMALEFICENCE
+
+Two moral norms have remained relatively constant across the various moral codes and oaths that have been 
+formulated for health care providers since the beginnings of Western medicine in classical Greek 
+civilization. They are beneﬁcence, the provision of beneﬁts, and nonmaleﬁcence, the avoidance of doing 
+harm. These norms are traced back to a body of writings from classical antiquity known as the Hippocratic 
+Corpus. Although these writings are associated with the name of Hippocrates, the acknowledged founder of 
+Western medicine, medical historians remain uncertain whether any, including the Hippocratic oath, were 
+actually his work. Although portions of the Corpus are believed to have been authored during the sixth 
+century BC , other portions are believed to have been written as late as the beginning of the Christian era. 
+Medical historians agree that many of the speciﬁc moral directives of the Corpus represent neither the 
+actual practices nor the moral ideals of the majority of physicians of ancient Greece and Rome.
+
+Nonetheless, the general injunction, ‘‘As to disease, make a habit of two things: (1) to help or, (2) at 
+least, to do no harm,’’ was accepted as a fundamental medical ethical norm by at least some ancient 
+physicians. With the decline of Hellenistic civilization and the rise of Christianity, beneﬁcence and 
+nonmaleﬁcence became increasingly accepted as the fundamental principles of morally sound medical practice. 
+Although beneﬁcence and nonmaleﬁcence were regarded merely as concomitant to the craft of medicine in 
+classical Greece and Rome, the emphasis upon compassion and the brotherhood of humankind, central to 
+Christianity, increasingly made these norms
+
+the only acceptable motives for medical practice. Even today, the provision of beneﬁts and the avoidance of 
+doing harm are stressed just as much in virtually all contemporary Western codes of conduct for health 
+professionals as they were in the oaths and codes that guided the health care providers of past centuries.
+
+Traditionally, the ethics of medical care have given greater prominence to nonmaleﬁcence than to 
+beneﬁcence. This priority was grounded in the fact that, historically, medicine’s capacity to do harm far 
+exceeded its capacity to protect and restore health. Providers of health care possessed many treatments that 
+posed clear and genuine risks to patients and that offered little prospect of beneﬁt. Truly effective 
+therapies were all too rare. In this context, it is surely rational to give substantially higher priority to 
+avoiding harm than to providing beneﬁts.
+
+The advent of modern science changed matters dramatically. Knowledge acquired in laboratories, tested in 
+clinics, and veriﬁed by statistical methods has increasingly dictated the practice of medicine. This 
+ongoing alliance between medicine and science became a critical source of the plethora of technologies that 
+now pervade medical care. The impressive increases in therapeutic, preventive, and rehabilitative 
+capabilities that these technologies have provided have pushed beneﬁcence to the forefront of medical 
+morality. Some have even gone so far as to hold that the old medical ethic of ‘‘Above all, do no harm’’ 
+should be superseded by the new ethic that ‘‘The patient deserves the best.’’ However, the rapid advances in 
+medical technology capabilities have also produced great uncertainty as to what is most beneﬁcial or least 
+harmful for the patient. In other words, along with increases in the ability to be beneﬁcent, medicine’s 
+technology has generated much debate about what actually counts as beneﬁcent or nonmaleﬁcent treatment. 
+Having reviewed some of the fundamental concepts of ethics and morality, let us now turn to several speciﬁc 
+moral issues posed by the use of medical technology.
+
+2.3 REDEFINING DEATH
+
+Although medicine has long been involved in the observation and certiﬁcation of death, many of its 
+practitioners have not always expressed philosophical concerns regarding the beginning of life and the onset 
+of death. Since medicine is a clinical and empirical science, it would seem that health professionals had no 
+medical need to consider the concept of death; the fact of death was sufﬁcient. The distinction between 
+life and death was viewed as the comparison of two extreme conditions separated by an inﬁnite chasm. With 
+the advent of technological advances in medicine to assist health professionals to prolong life, this view 
+has changed.
+
+There is no doubt that the use of medical technology has in many instances warded off the coming of the grim 
+reaper. One need only look at the trends in average life expectancy for conﬁrmation. For example, in the 
+United States today, the average life expectancy for males is 74.3 years and for females 76 years, whereas 
+in 1900 the average life expectancy for both sexes was only 47 years. Infant mortality has been 
+signiﬁcantly reduced in developed nations where technology is an integral part of the culture. Premature 
+births no longer constitute a threat to life because of the
+
+artiﬁcial environment that medical technology can provide. Today, technology has not only helped 
+individuals avoid early death but has also been effective in delaying the inevitable. Pacemakers, artiﬁcial 
+kidneys, and a variety of other medical devices have enabled individuals to add many more productive years 
+to their lives. Technology has been so successful that health professionals responsible for the care of 
+critically ill patients have been able to maintain their ‘‘vital signs of life’’ for extensive periods of 
+time. In the process, however, serious philosophical questions concerning the quality of the life provided 
+to these patients have arisen.
+
+Consider the case of the patient who sustains a serious head injury in an automobile accident. To the 
+attendants in the ambulance who reached the scene of the accident, the patient was unconscious, but still 
+alive with a beating heart. After the victim was rushed to the hospital and into the emergency room, the 
+resident in charge veriﬁed the stability of the vital signs of heartbeat and respiration during examination 
+and ordered a computerized tomography (CT) scan to indicate the extent of the head injury. The results of 
+this procedure clearly showed extensive brain damage. When the EEG was obtained from the scalp electrodes 
+placed about the head, it was noted to be signiﬁcantly abnormal. In this situation, then, the obvious 
+questions arise: What is the status of the patient? Is the patient alive?
+
+Alternatively, consider the events encountered during one open-heart surgery. During this procedure, the 
+patient was placed on the heart bypass machine while the surgeon attempted to correct a malfunctioning 
+valve. As the complex and long operation continued, the EEG monitors that had indicated a normal pattern of 
+electrical activity at the onset of the operation suddenly displayed a relatively straight line indicative 
+of feeble electrical activity. However, since the heart–lung bypass was maintaining the patient’s so-called 
+vital signs, what should the surgeon do? Should the medical staff continue on the basis that the patient is 
+alive, or is the patient dead?
+
+The increasing occurrence of these situations has stimulated health professionals to reexamine the 
+deﬁnition of death. In essence, advances in medical technology that delay death actually hastened its 
+redeﬁnition. This should not be so surprising because the deﬁnition of death has always been closely 
+related to the extent of medical knowledge and available technology. For many centuries, death was deﬁned 
+solely as the absence of breathing. Since it was felt that the spirit of the human being resided in the 
+spiritus (breath), its absence became indicative of death. With the continuing proliferation of scientiﬁc 
+information regarding human physiology and the development of techniques to revive a nonbreathing person, 
+attention turned to the pulsating heart as the focal point in determination of death. However, this view was 
+to change through additional medical and technological advances in supportive therapy, resuscitation, 
+cardiovascular assist devices, and organ transplantation.
+
+As understanding of the human organism increased, it became obvious that one of the primary constituents of 
+the blood is oxygen and that any organ deprived of oxygen for a speciﬁed period of time will cease to 
+function and die. The higher functions of the brain are particularly vulnerable to this type of insult, and 
+the removal of oxygen from the blood supply even for a short period of time (3 minutes) produces 
+irreversible damage to the brain tissues. Consequently, the evidence of death began to shift from the 
+pulsating heart to the vital, functioning brain. Once medicine was provided
+
+with the means to monitor the brain’s activity (i.e., the EEG), another factor was introduced in the 
+deﬁnition of death. Advocates of the concept of brain death argued that the human brain is truly essential 
+to life. When the brain is irreversibly damaged, so are the functions that are identiﬁed with self and our 
+own humanness: memory, feeling, thinking, and knowledge.
+
+As a result, it became widely accepted that in clinical death the spontaneous activity of the lungs, heart, 
+and brain is no longer present. The irreversible cessation of functioning of all three major organs (i.e., 
+heart, lungs, and brain) was required before anyone was pronounced dead. Although damage to any other organ 
+system such as the liver or kidney may ultimately cause the death of the individual through a fatal effect 
+on the essential functions of the heart, lungs, or brain, this aspect was not included in the deﬁnition of 
+clinical death.
+
+With the development of modern respirators, however, the medical profession encountered an increasing number 
+of situations in which a patient with irreversible brain damage could be maintained almost indeﬁnitely. 
+Once again, a new technological advance created the need to reexamine the deﬁnition of death.
+
+The movement toward redeﬁning death received considerable impetus with the publication of a report 
+sponsored by the Ad Hoc Committee of the Harvard Medical School in 1968, in which the committee offered an 
+alternative deﬁnition of death based on the functioning of the brain. The report of this committee was 
+considered a landmark attempt to deal with death in light of technology.
+
+In summary, the criteria for death established by this committee included the following: (1) the patient 
+must be unreceptive and unresponsive, that is, in a state of irreversible coma; (2) the patient must have no 
+movements of breathing when the mechanical respirator is turned off; (3) the patient must not demonstrate 
+any reﬂexes; and (4) the patient must have a ﬂat EEG for at least 24 hours, indicating no electrical brain 
+activity. When these criteria are satisﬁed, then death may be declared.
+
+At the time, the committee also strongly recommended that the decision to declare the person dead and then 
+to turn off the respirator should not be made by physicians involved in any later efforts to transplant 
+organs or tissues from the deceased individual. In this way, a prospective donor’s death would not be 
+hastened merely for the purpose of transplantation. Thus, complete separation of authority and 
+responsibility for the care of the recipient from the physician or group of physicians responsible for the 
+care of the prospective donor is essential.
+
+The shift to a brain-oriented concept involved deciding that much more than just biological life is 
+necessary to be a human person. The brain death concept was essentially a statement that mere vegetative 
+human life is not personal human life. In other words, an otherwise intact and alive but brain-dead person 
+is not a human person. Many of us have taken for granted the assertion that being truly alive in this world 
+requires an ‘‘intact functioning brain.’’ Yet, precisely this issue was at stake in the gradual movement 
+from using heartbeat and respiration as indices of life to using brain-oriented indices instead.
+
+Indeed, total and irreparable loss of brain function, referred to as brainstem death, whole brain death, or, 
+simply, brain death, has been widely accepted as the legal standard for death. By this standard, an 
+individual in a state of brain death is legally
+
+indistinguishable from a corpse and may be legally treated as one even though respiratory and circulatory 
+functions may be sustained through the intervention of technology. Many take this legal standard to be the 
+morally appropriate one, noting that once destruction of the brain stem has occurred, the brain cannot 
+function at all, and the body’s regulatory mechanisms will fail unless artiﬁcially sustained. Thus 
+mechanical sustenance of an individual in a state of brain death is merely postponement of the inevitable 
+and sustains nothing of the personality, character, or consciousness of the individual. It is simply the 
+mechanical intervention that differentiates such an individual from a corpse and a mechanically ventilated 
+corpse is a corpse nonetheless.
+
+Even with a consensus that brainstem death is death, and thus that an individual in such a state is indeed a 
+corpse, difﬁcult cases remain. Consider the case of an individual in a persistent vegetative state, the 
+condition known as neocortical death. Although severe brain injury has been suffered, enough brain function 
+remains to make mechanical sustenance of respiration and circulation unnecessary. In a persistent vegetative 
+state, an individual exhibits no purposeful response to external stimuli and no evidence of self-awareness. 
+The eyes may open periodically and the individual may exhibit sleep–wake cycles. Some patients even yawn, 
+make chewing motions, or swallow spontaneously. Unlike the complete unresponsiveness of individuals in a 
+state of brainstem death, a variety of simple and complex responses can be elicited from an individual in a 
+persistent vegetative state. Nonetheless, the chances that such an individual will regain consciousness are 
+remote. Artiﬁcial feeding, kidney dialysis, and the like make it possible to sustain an individual in a 
+state of neocortical death for decades. This sort of condition and the issues it raises are exempliﬁed by 
+the famous case of Karen Ann Quinlan.
+
+In April 1975, this young woman suffered severe brain damage and was reduced to a chronic vegetative state 
+in which she no longer had any cognitive function. Accepting the doctors’ judgment that there was no hope of 
+recovery, her parents sought permission from the courts to disconnect the respirator that was keeping her 
+alive in the intensive care unit of a New Jersey hospital.
+
+The trial court, and then the Supreme Court of New Jersey, agreed that Karen’s respirator could be removed. 
+So it was disconnected. However, the nurse in charge of her care in the Catholic hospital opposed this 
+decision and, anticipating it, had begun to wean her from the respirator so that by the time it was 
+disconnected she could remain alive without it. So, Karen did not die. She remained alive for ten additional 
+years. In June 1985, she ﬁnally died of acute pneumonia. Antibiotics, which would have fought the 
+pneumonia, were not given.
+
+If brainstem death is death, is neocortical death also death? Again, the issue is not a straightforward 
+factual matter. For it, too, is a matter of specifying which features of living individuals distinguish them 
+from corpses and so make treatment of them as corpses morally impermissible. Irreparable cessation of 
+respiration and circulation, the classical criterion for death, would entail that an individual in a 
+persistent vegetative state is not a corpse and so, morally speaking, must not be treated as one. The 
+brainstem death criterion for death would also entail that a person in a state of neocortical death is not 
+yet a corpse. On this criterion, what is crucial is that brain damage be severe enough to cause failure of 
+the regulatory mechanisms of the body.
+
+
+

@@ -830,3 +830,213 @@ professional values. Furthermore, a professional is someone who has internalized
 licensed on the basis of his or her technical competence. Professionals generally
 
 
+accept scientiﬁc standards in their work, restrict their work activities to areas in which they are 
+technically competent, avoid emotional involvement, cultivate objectivity in their work, and put their 
+clients’ interests before their own.
+
+The concept of a profession that is involved in the design, development, and management of medical 
+technology encompasses three primary occupational models: science, business, and profession. Consider 
+initially the contrast between science and profession. Science is seen as the pursuit of knowledge, its 
+value hinging on providing evidence and communicating with colleagues. Profession, on the other hand, is 
+viewed as providing a service to clients who have problems they cannot handle themselves. Scientists and 
+professionals have in common the exercise of some knowledge, skill, or expertise. However, while scientists 
+practice their skills and report their results to knowledgeable colleagues, professionals such as lawyers, 
+physicians, and engineers serve lay clients. To protect both the professional and the client from the 
+consequences of the layperson’s lack of knowledge, the practice of the profession is often regulated through 
+such formal institutions as state licensing. Both professionals and scientists must persuade their clients 
+to accept their ﬁndings. Professionals endorse and follow a speciﬁc code of ethics to serve society. On 
+the other hand, scientists move their colleagues to accept their ﬁndings through persuasion.
+
+Consider, for example, the medical profession. Its members are trained in caring for the sick, with the 
+primary goal of healing them. These professionals not only have a responsibility for the creation, 
+development, and implementation of that tradition, but they are also expected to provide a service to the 
+public, within limits, without regard to self-interest. To ensure proper service, the profession closely 
+monitors the licensing and certiﬁcation process. Thus, medical professionals themselves may be regarded as 
+a mechanism of social control. However, this does not mean that other facets of society are not involved in 
+exercising oversight and control of physicians in their practice of medicine.
+
+A ﬁnal attribute of professionals is that of integrity. Physicians tend to be both permissive and 
+supportive in relationships with patients and yet are often confronted with moral dilemmas involving the 
+desires of their patients and social interest. For example, how to honor the wishes of terminally ill 
+patients while not facilitating the patients’ deaths is a moral question that health professionals are 
+forced to confront. A detailed discussion of the moral issues posed by medical technology is presented in 
+Chapter 2.
+
+One can determine the status of professionalization by noting the occurrence of six crucial events: (1) the 
+ﬁrst training school; (2) the ﬁrst university school; (3) the ﬁrst local professional association; (4) 
+the ﬁrst national professional association; (5) the ﬁrst state license law; and (6) the ﬁrst formal code 
+of ethics.
+
+The early appearances of the training school and the university afﬁliation underscore the importance of the 
+cultivation of a knowledge base. The strategic innovative role of the universities and early teachers lies 
+in linking knowledge to practice and creating a rationale for exclusive jurisdiction. Those practitioners 
+pushing for prescribed training then form a professional association. The association deﬁnes the tasks of 
+the profession: raising the quality of recruits; redeﬁning their function to permit the use of less 
+technically skilled people to perform the more routine, less involved
+
+tasks; and managing internal and external conﬂicts. In the process, internal conﬂict may arise between 
+those committed to previously established procedures and newcomers committed to change and innovation. At 
+this stage, some form of professional regulation, such as licensing or certiﬁcation, surfaces because of a 
+belief that it will ensure minimum standards for the profession, enhance status, and protect the layperson 
+in the process.
+
+The last area of professional development is the establishment of a formal code of ethics, which usually 
+includes rules to exclude unqualiﬁed and unscrupulous practitioners, rules to reduce internal competition, 
+and rules to protect clients and emphasize the ideal service to society. A code of ethics usually comes at 
+the end of the professionalization process.
+
+In biomedical engineering, all six of these critical steps have been taken. The ﬁeld of biomedical 
+engineering, which originated as a professional group interested primarily in medical electronics in the 
+late 1950s, has grown from a few scattered individuals to a very well-established organization. There are 
+approximately 48 international societies throughout the world serving an increasingly expanding community of 
+biomedical engineers. Today, the scope of biomedical engineering is enormously diverse. Over the years, many 
+new disciplines such as tissue engineering and artiﬁcial intelligence, which were once considered alien to 
+the ﬁeld, are now an integral part of the profession.
+
+Professional societies play a major role in bringing together members of this diverse community to share 
+their knowledge and experience in pursuit of new technological applications that will improve the health and 
+quality of life of human beings. Intersocietal cooperation and collaborations, both at national and 
+international levels, are more actively fostered today through professional organizations such as the 
+Biomedical Engineering Society (BMES), the American Institute of Medical and Biological Engineers (AIMBE), 
+and the Engineering in Medicine and Biology Society (EMBS) of the Institute of Electrical and Electronic 
+Engineers (IEEE).
+
+1.6 PROFESSIONAL SOCIETIES
+
+1.6.1 American Institute for Medical and Biological Engineering
+
+The United States has the largest biomedical engineering community in the world. Major professional 
+organizations that address various cross sections of the ﬁeld and serve biomedical engineering 
+professionals include: (1) the American College of Clinical Engineering, (2) the American Institute of 
+Chemical Engineers, (3) the American Medical Informatics Association, (4) the American Society of 
+Agricultural Engineers, (5) the American Society for Artiﬁcial Internal Organs, (6) the American Society of 
+Mechanical Engineers, (7) the Association for the Advancement of Medical Instrumentation, (8) the Biomedical 
+Engineering Society, (9) the IEEE Engineering in Medicine and Biology Society, (10) an interdisciplinary 
+Association for the Advancement of Rehabilitation and Assistive Technologies, and (11) the Society for 
+Biomaterials. In an effort to unify all the disparate components of the biomedical engineering
+
+community in the United States as represented by these various societies, the American Institute for Medical 
+and Biological Engineering (AIMBE) was created in 1992. The primary goal of AIMBE is to serve as an umbrella 
+organization in the United States for the purpose of unifying the bioengineering community, addressing 
+public policy issues, and promoting the engineering approach in society’s effort to enhance health and 
+quality of life through the judicious use of technology. For information, contact AIMBE, 1901 Pennsylvania 
+Avenue N.W., Suite 401, Washington, D.C. 20006 (http://aimbe.org/; Email: info@aimbe.org).
+
+1.6.2 IEEE Engineering in Medicine and Biology Society
+
+The Institute of Electrical and Electronic Engineers (IEEE) is the largest international professional 
+organization in the world, and it accommodates 37 societies and councils under its umbrella structure. Of 
+these 37, the Engineering in Medicine and Biology Society (EMBS) represents the foremost international 
+organization serving the needs of over 8000 biomedical engineering members around the world. The major 
+interest of the EMBS encompasses the application of concepts and methods from the physical and engineering 
+sciences to biology and medicine. Each year the society sponsors a major international conference while 
+cosponsoring a number of theme-oriented regional conferences throughout the world. Premier publications 
+consist of a monthly journal (Transactions on Biomedical Engineering), three quarterly journals 
+(Transactions on Neural Systems and Rehabilitation Engineering, Transactions on Information Technology in 
+Biomedicine, and Transactions on Nanobioscience), and a bimonthly magazine (IEEE Engineering in Medicine and 
+Biology Magazine). Secondary publications, authored in collaboration with other societies, include 
+Transactions on Medical Imaging, Transactions on Neural Networks, Transactions on Pattern Analysis, and 
+Machine Intelligence. For more information, contact the IEEE EMBS Executive Ofﬁce, IEEE, 445 Hoes Lane, 
+Piscataway, NJ, 08855–1331 USA (http://www.embs. org/; Email: emb-exec@ieee.org).
+
+1.6.3 Biomedical Engineering Society
+
+Established in 1968, the Biomedical Engineering Society (BMES) was founded to address a need for a society 
+that afforded equal status to representatives of both biomedical and engineering interests. With that in 
+mind, the primary goal of the BMES, as stated in their Articles of Incorporation, is ‘‘to promote the 
+increase of biomedical engineering knowledge and its utilization.’’ Regular meetings are scheduled 
+biannually in both the spring and fall. Additionally, special interest meetings are interspersed throughout 
+the year, and are promoted in conjunction with other biomedical engineering societies such as AIMBE and 
+EMBS. The primary publications associated with the BMES include: Annals of Biomedical Engineering, a monthly 
+journal presenting original research in several biomedical ﬁelds; BMES Bulletin, a quarterly newsletter 
+presenting a wider array of subject matter relating both to biomedical engineering and BMES news and events; 
+and the BMES Membership Directory, an annual publication listing the contact information of the society’s
+
+individual constituents. For more information, contact the BMES directly: BMES, 8401 Corporate Drive, Suite 
+225, Landover, MD 20785–2224, USA (http:// www.bmes.org/default.asp; Email: info@bmes.org).
+
+The activities of these biomedical engineering societies are critical to the continued advancement of the 
+professional status of biomedical engineers. Therefore, all biomedical engineers, including students in the 
+profession, are encouraged to become members of these societies and engage in the activities of true 
+professionals.
+
+EXERCISES
+
+1. Select a speciﬁc medical technology from the following list of historical periods. Describe the 
+fundamental principles of operation and discuss their impact on health care delivery: (a) 1900–1939; (b) 
+1945–1970; (c) 19701980; (d) 1980–2003.
+
+2. Provide a review of the effect computer technology has had on health care delivery, citing the computer 
+application and the time frame of its implementation.
+
+3. The term genetic engineering implies an engineering function. Is there one? Should this activity be 
+included in the ﬁeld of biomedical engineering?
+
+4. Discuss in some detail the role the genome project has had and is anticipated to have on the development 
+of new medical technology.
+
+5. Using your crystal ball, what advances in engineering and/or life science do you think will have the 
+greatest effect on clinical care or biomedical research?
+
+6. The organizational structure of a hospital involves three major groups: (1) the board of trustees, (2) 
+administrators, and (3) the medical staff. Specify the major responsibilities of each. In what group should 
+a department of clinical engineering reside? Explain your answer.
+
+7. Based on its deﬁnition, what attributes should a clinical engineer have?
+
+8. List at least seven (7) speciﬁc activities of clinical engineers.
+
+9. Provide modern examples (i.e., names of individuals and their activities) of the three major roles played 
+by biomedical engineers: (a) The problem solver; (b) The technological entrepreneur; (c) The 
+engineer–scientist.
+
+10. Do the following groups ﬁt the deﬁnition of a profession? Discuss how they do or do not: (a) 
+Registered nurses; (b) Biomedical technicians; (c) Respiratory therapists; (d) Hospital administrators.
+
+11. List the areas of knowledge necessary to practice biomedical engineering.
+
+Identify where in the normal educational process one can acquire knowledge. How best can administrative 
+skills be acquired?
+
+12. Provide a copy of the home page for a biomedical engineering professional society and a list of the 
+society’s major activities for the coming year.
+
+13. What is your view regarding the role biomedical engineers will play in the health care system of 
+tomorrow?
+
+14. Discuss the trade-offs in health care that occur as a result of limited ﬁnancial resources.
+
+15. Discuss whether medical technology is an economic cost factor, beneﬁt, or both.
+
+REFERENCES AND SUGGESTED READING
+
+Aston, C. (2001). Biological warfare canaries. IEEE Spectrum 38:10, 35–40.
+
+Bankman, I.N. (2000). Handbook of Medical Imaging. CRC Press, Boca Raton, FL. Bronzino, J.D. (2005). 
+Biomedical Engineering Handbook, 2nd Ed. CRC Press, Boca Raton,
+
+FL.
+
+Bronzino, J.D. (1992). Management of Medical Technology: A Primer for Clinical Engineer-
+
+ing. Butterworth, Stoneham, MA.
+
+Carson, E. and Cobelli, C. (2001). Modeling Methodology for Physiology and Medicine.
+
+Academic Press, San Diego, CA.
+
+Laurenchin, C.T. (2003). Repair and restore with tissue engineering. EMBS Magazine 22:5,
+
+16–17.
+
+Nebekar, F. (2002). Golden accomplishments in biomedical engineering. EMBS Magazine
+
+21:3, 17–48.
+
+Pacela, A. (1990). Bioengineering Education Directory. Quest Publishing, Brea, CA. Palsson, B.O. and Bhatia, 
+S.N. (2004). Tissue Engineering. Prentice Hall, Englewood, NJ. The EMBS Magazine published by the Institute 
+of Electrical and Electronic Engineers, edited
+
+by John Enderle, especially Writing the book on BME, 21:3, 2002.
+
+
