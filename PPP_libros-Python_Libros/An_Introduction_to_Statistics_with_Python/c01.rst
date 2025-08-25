@@ -1,0 +1,166 @@
+Preface
+In the data analysis for my own research work, I was often slowed down by two
+things: (1) I did not know enough statistics, and (2) the books available would
+provide a theoretical background, but no real practical help. The book you are
+holding in your hands (or on your tablet or laptop) is intended to be the book that
+will solve this very problem. It is designed to provide enough basic understanding
+so that you know what you are doing, and it should equip you with the tools you
+need. I believe that the Python solutions provided in this book for the most basic
+statistical problems address at least 90 % of the problems that most physicists,
+biologists, and medical doctors encounter in their work. So if you are the typical
+graduate student working on a degree, or a medical researcher analyzing the latest
+experiments, chances are that you will find the tools you require here—explanation
+and source-code included.
+This is the reason I have focused on statistical basics and hypothesis tests in this
+book and refer only briefly to other statistical approaches. I am well aware that most
+of the tests presented in this book can also be carried out using statistical modeling.
+But in many cases, this is not the methodology used in many life science journals.
+Advanced statistical analysis goes beyond the scope of this book and—to be frank—
+exceeds my own knowledge of statistics.
+My motivation for providing the solutions in Python is based on two considera-
+tions. One is that I would like them to be available to everyone. While commercial
+solutions like Matlab, SPSS, Minitab, etc., offer powerful tools, most can only use
+them legally in an academic setting. In contrast, Python is completely free (“as in
+free beer” is often heard in the Python community). The second reason is that Python
+is the most beautiful coding language that I have yet encountered; and around 2010
+Python and its documentation matured to the point where one can use it without
+being a serious coder. Together, this book, Python, and the tools that the Python
+ecosystem offers today provide a beautiful, free package that covers all the statistics
+that most researchers will need in their lifetime
+
+viii Preface
+For Whom This Book Is
+This book assumes that:
+• You have some basic programming experience: If you have done no program-
+ming previously, you may want to start out with Python, using some of the great
+links provided in the text. Starting programming and starting statistics may be a
+bit much all at once.
+• You are not a statistics expert: If you have advanced statistics experience, the
+online help in Python and the Python packages may be sufficient to allow you
+to do most of your data analysis right away. This book may still help you to
+get started with Python. However, the book concentrates on the basic ideas
+of statistics and on hypothesis tests, and only the last part introduces linear
+regression modeling and Bayesian statistics.
+This book is designed to give you all (or at least most of) the tools that you
+will need for statistical data analysis. I attempt to provide the background you need
+to understand what you are doing. I do not prove any theorems and do not apply
+mathematics unless necessary. For all tests, a working Python program is provided.
+In principle, you just have to define your problem, select the corresponding program,
+and adapt it to your needs. This should allow you to get going quickly, even if you
+have little Python experience. This is also the reason why I have not provided the
+software as one single Python package. I expect that you will have to tailor each
+program to your specific setup (data format, plot labels, return values, etc.).
+This book is organized into three parts:
+Part I gives an introduction to Python: how to set it up, simple programs to get
+started, and tips how to avoid some common mistakes. It also shows how to read
+data from different sources into Python and how to visualize statistical data.
+Part II provides an introduction to statistical analysis. How to design a study,
+and how best to analyze data, probability distributions, and an overview of the
+most important hypothesis tests. Even though modern statistics is firmly based
+in statistical modeling, hypothesis tests still seem to dominate the life sciences.
+For each test a Python program is provided that shows how the test can be
+implemented.
+Part III provides an introduction to statistical modeling and a look at advanced
+statistical analysis procedures. I have also included tests on discrete data in this
+section, such as logistic regression, as they utilize “generalized linear models”
+which I regard as advanced. The book ends with a presentation of the basic ideas
+of Bayesian statistics.
+Additional Material
+This book comes with many additional Python programs and sample data, which
+are available online. These programs include listings of the programs printed in the
+book, solutions to the examples given at the end of most chapters, and code samples
+
+Preface ix
+with a working example for each test presented in this book. They also include the
+code used to generate the pictures in this book, as well as the data used to run the
+programs.
+The Python code samples accompanying the book are available at http://www.
+quantlet.de. All Python programs and data sets can be found on GitHub: https://
+github.com/thomas-haslwanter/statsintro_python.git. Links to all material are avail-
+able at http://www.springer.com/de/book/9783319283159
+
+Part I
+Python and Statistics
+The first part of the book presents an introduction to statistics based on Python. It is
+impossible to cover the whole language in 30 or 40 pages, so if you are a beginner,
+please see one of the excellent Python introductions available in the internet for
+details. Links are given below. This part is a kick-start for Python; it shows how
+to install Python under Windows, Linux, or MacOS, and goes step-by-step through
+documented programming examples. Tips are included to help avoid some of the
+problems frequently encountered while learning Python.
+Because most of the data for statistical analysis are commonly obtained from text
+files, Excel files, or data preprocessed by Matlab, the second chapter presents simple
+ways to import these types of data into Python.
+The last chapter of this part illustrates various ways of visualizing data in Python.
+Since the flexibility of Python for interactive data analysis has led to a certain
+complexity that can frustrate new Python programmers, the code samples presented
+in Chap. 3 for various types of interactive plots should help future Pythonistas avoid
+these problems.
+
+Chapter 1
+Why Statistics?
+Statistics is the explanation of variance in the light of what remains unexplained.
+Every day we are confronted with situations with uncertain outcomes, and must
+make decisions based on incomplete data: “Should I run for the bus? Which stock
+should I buy? Which man should I marry? Should I take this medication? Should
+I have my children vaccinated?” Some of these questions are beyond the realm
+of statistics (“Which person should I marry?”), because they involve too many
+unknown variables. But in many situations, statistics can help extract maximum
+knowledge from information given, and clearly spell out what we know and what we
+don’t know. For example, it can turn a vague statement like “This medication may
+cause nausea,” or “You could die if you don’t take this medication” into a specific
+statement like “Three patients in one thousand experience nausea when taking this
+medication,” or “If you don’t take this medication, there is a 95 % chance that you
+will die.”
+Without statistics, the interpretation of data can quickly become massively
+flawed. Take, for example, the estimated number of German tanks produced during
+World War II, also known as the “German Tank Problem.” The estimate of the
+number of German tanks produced per month from standard intelligence data was
+1,550; however, the statistical estimate based on the number of tanks observed
+was 327, which was very close to the actual production number of 342 (http://en.
+wikipedia.org/wiki/German_tank_problem).
+Similarly, using the wrong tests can also lead to erroneous results.
+In general, statistics will help to
+• Clarify the question.
+• Identify the variable and the measure of that variable that will answer that
+question.
+• Determine the required sample size.
+
+• Describe variation.
+• Make quantitative statements about estimated parameters.
+• Make predictions based on your data.
+Reading the Book Statistics was originally invented—like so many other things—
+by the famous mathematician C.F. Gauss, who said about his own work, “Ich habe
+fleissig sein müssen; wer es gleichfalls ist, wird eben so weit kommen.” (“I had to
+work hard; if you work hard as well, you, too, will be successful.”). Just as reading a
+book about playing the piano won’t turn you into a great pianist, simply reading this
+book will not teach you statistical data analysis. If you don’t have your own data
+to analyze, you need to do the exercises included. Should you become frustrated or
+stuck, you can always check the sample Solutions provided at the end of the book.
+Exercises Solutions to the exercises provided can be found at the end of the book.
+In my experience, very few people work through large numbers of examples on their
+own, so I have not included additional exercises in this book.
+If the information here is not sufficient, additional material can be found in other
+statistical textbooks and on the web:
+Books There are a number of good books on statistics. My favorite is Altman
+(1999): it does not dwell on computers and modeling, but gives an extremely useful
+introduction to the field, especially for life sciences and medical applications. Many
+formulations and examples in this manuscript have been taken from that book.
+A more modern book, which is more voluminous and, in my opinion, a bit harder to
+read, is Riffenburgh (2012). Kaplan (2009) provides a simple introduction to modern
+regression modeling. If you know your basic statistics, a very good introduction
+to Generalized Linear Models can be found in Dobson and Barnett (2008), which
+provides a sound, advanced treatment of statistical modeling.
+WWW In the web, you will find very extensive information on statistics in
+English at
+• http://www.statsref.com/
+• http://www.vassarstats.net/
+• http://www.biostathandbook.com/
+• http://onlinestatbook.com/2/index.html
+• http://www.itl.nist.gov/div898/handbook/index.htm
+A good German web page on statistics and regulatory issues is http://www.
+reiter1.com/.
+I hope to convince you that Python provides clear and flexible tools for most of
+the statistical problems that you will encounter, and that you will enjoy using it.
+
+

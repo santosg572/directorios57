@@ -1,0 +1,405 @@
+Preface
+I have been teaching Python to first-year engineering students in Singapore
+University of Technology and Design. As a powerful and high level programming
+language, Python is ideal for the introduction to programming, which is useful for
+all engineering disciplines. In my teaching, I constantly find the need for ways to
+make my explanations as simple as possible. A concept, no matter how simple it
+seems to us computer scientists, may raise profound questions among students. For
+example, why is x = x + 1 a valid statement but not equivalent to the contradicting
+equation 0 = 1? How can three lines of static code lead to a thousand statements
+being executed dynamically?
+A student who asks such questions can be a very good student. Once the basic
+concepts are explained, she can manage programming effectively. On the other
+hand, few books on Python touch on the simple yet fundamental discussions that
+have been accumulated into my lecture notes. This has become my motivation for
+writing this book, a very gentle introduction to Python and programming.
+From teaching experiences in University of Oxford, University of Cambridge,
+and Singapore University of Technology and Design, I find three components the
+most important for teaching programming. The first is syntax, the basic knowledge
+of how to write a correct program. As with most books on the Python language, it is
+an important component of this book. The second is the underlying mechanism of
+dynamic execution, and the underlying representation of data types. This is an
+aspect of programming that can easily be overlooked, which leads to common
+mistakes in programming. I make abstractions to the most important parts of the
+Python kernel, such as the binding table, object structures, and statement execution,
+showing them in figures, so that students can be confident of what happens
+underneath when a program is executed.
+The third component is problem solving, which is the target of program design.
+The goal of learning programming is to solve problems, and it is important to
+associate programming concepts to problem solving when they are introduced.
+There are often various typical ways to approach common problems, and I try to
+introduce them along with the introduction to the programming language itself.
+
+In addition, I include the most basic concepts in computer science into the
+introduction to Python, including information theory, computer architecture, data
+structure and algorithms, numerical analysis, and program design thinking such as
+functional programming and object-oriented programming. All these concepts are
+necessary backgrounds on which Python operates, and through which students can
+acquire a basic idea of computer science. I try to merge them into relevant sections,
+and make my introduction most simple and gentle.
+In terms of Python syntax and libraries, I prioritize the former over the latter,
+introducing the full Python syntax and the most important libraries. The goal is to
+introduce Python to students with no programming or computer science back-
+ground, equipping them with knowledge of the programming language and its
+underlying mechanisms, so that they can learn the usage of additional libraries with
+little difficulty, by consulting the Python documentation.
+It took me over a year to transform my lecture notes into the book, during which
+many people gave me valuable help. Special thanks to Qiujing Xu, Likun Qiu,
+Chen Lü, Yanan Lu, Chingyun Chang, Yijia Liu, Zhongye Jia, Bo Chen, Jie Yang,
+Meishan Zhang, Xiao Ding, Hao Zhou, and Ji Ma for helping me to draw the
+figures, and enter handwritten text in some chapters, to Haoliang Qi for inviting me
+to give a guest lecture series and encouragement to write up my lecture notes, and to
+all the students who gave me valuable feedback.
+
+1.1 Introduction
+Computers play a very important role in the digital world, and in our daily lives. They
+are central to smart TVs, phones, homes cars, metros, airplanes, robots, factories and
+many other digital systems. We use computers through these systems every day.
+At work, computers have become an indispensible tool to more and more people.
+Fund managers use computers for analytical trading; architects use computers to
+make and verify building design; linguists use computers to study and annotate text
+corpora; natural scientists use computers to simulate large experiments in physics
+and chemistry; supermarkets use computers to plan and schedule the most efficient
+home delivery times and routes. As a result, fundamental knowledge on effectively
+utilizing computers is useful for all industries and disciplines.
+Computers integrate hardware and software. Hardware refers to physical com-
+ponents, such as chips, keyboards and monitors, while software refers to operat-
+ing systems and application programs, such as Office, Firefox and iTunes. Software
+operates on hardware to provide useful functionalities to users, such as text editing,
+Internet browsing and gaming. On the other hand, hardware provides fundamental
+support to software, by offering a set of basic instructions, which software combines
+to achieve complex functionality.
+Programming is the design of software using a set of basic instructions.
+Programming languages abstract hardware instructions into basic statements,
+which are much easier to understand and handle. Using a programming language,
+one can write complex software, achieving tailored functionalities by combination
+of basic statements. This is the ultimate way of utilizing a computer, and is necessary
+when existing software fails to satisfy the requirement, such as the need to compute
+novel equations, or simulate specific experiments in an engineering discipline.
+
+2 1 An Introduction to Python and Computer Programming
+Fig. 1.1 Comparison of
+Python, Java and C++
+1.1.1 Python and Computer Programming
+Python was invented in the 1990s, named after the comedy show Monte Python’s
+Flying Circus. Due to its simplicity and elegance, it gained popularity among
+programmers quickly, and was adopted by large companies, such as Google Inc.
+Compared with other programming languages, such as Java and C++, Python is
+particularly useful for learning computer programming.
+Figure 1.1 shows a comparison between Python, Java and C++, three popular pro-
+gramming languages. Among the three, C++ was invented the earliest. Its statements
+were the closest to hardware instructions. As a result, C++ programs run very fast,
+and can be optimized in many ways. However, mastering C++ requires knowledge
+in computer hardware. Java was invented decades after C++. It offers higher levels
+of abstraction compared to C++, making it easier to program. As a trade-off, Java
+programs run slower than C++. Python takes one step further in abstracting away
+hardware details, offering a conceptually very simple system for statement execu-
+tion. As a result, Python is the easiest to learn and fully master, but Python programs
+are typically the slowest to run.
+In terms of functionalities, Python is as powerful as Java and C++. It supports
+all the functionalities that typical computer hardware supports. In addition, libraries
+provided by Python and open-source contributers enrich the power of Python, making
+it the most convenient choice for many applications, such as text processing. Python
+libraries such as numpy and scipy are implemented in C++ in the lower level, offering
+very fast ways to perform scientific computation using Python.
+Problem-solving skills are as important as knowledge of programming languages
+to computer programming. It is therefore important to learn common approaches to
+typical problems when learning computer programming. Python supports virtually
+all the programming paradigms that Java and C++ supports, and even more, making
+it convenient to apply flexible problem-solving techniques using the Python pro-
+gramming language.
+1.2 Preliminaries
+As preliminary knowledge to Python programming, it is helpful to know the basic
+structure of a computer, the operating system, the file system, and how to install and
+configure Python. This section introduces these backgrounds, so that it is easier to
+embark on Python programming from the next chapter.
+
+1.2 Preliminaries 3
+Fig. 1.2 The structure of a
+computer
+1.2.1 The Computer
+The structure of a computer and the mechanism in which Python code is executed are
+illustrated in Fig. 1.2. On the bottom of the figure is the hardware computer, which
+is physically tangible. It consists of three main components: the central processing
+unit (CPU), the memory and devices. They will be discussed in the next chapter. On
+top of the computer runs an operating system, such as Microsoft Windows, Linux
+and Mac OS. Operating systems connect computer hardware and software, providing
+basic interfaces to software programs for controlling the hardware. For example, the
+file system is an interface that operating systems provide for organizing data in the
+hard drive (hardware). Browsers, text editors, music players, and the vast majority
+of other application programs are managed by the operating system.
+As shown in Fig. 1.2, Python is an application program running on top of the
+operating system, just like a browser or a text editor. Its main function, however,
+is to execute generic Python code, rather than performing a specific task, which
+browsers and text editors do. IDLE is another application program, which provides
+an interactive interface for Python. On the top of the figure is Python code, which
+is executed by the Python application. Given a piece of Python code, or a Python
+program, Python executes it by interpreting the code into computer instructions,
+executed on computer hardware via the operating system. In the following chapters,
+how various types of Python statements are interpreted will be discussed in detail.
+1.2.2 The File System
+Operating systems organize data in a hard drive as files. Each file contains a certain
+type of data. For example, a music track can be stored as an mp3 file, a video clip can
+be stored as an mpeg file, and a text document can be stored as a txt file. Application
+programs are also files. In Windows, for example, application programs such as
+
+4 1 An Introduction to Python and Computer Programming
+Firefox are stored as executable (exe) files. Python programs are a special type of
+text document, stored as py files.
+The type of a file, such as as mp3 and txt, is typically reflected by the last part of
+the file name, which is called the extension name. The extension name is separated
+from the main file name by a dot (.). For example, in the file name “readme.txt”,
+the main file name is “readme” and the extension name is “txt”, indicating that the
+corresponding file is a text file. In the file name “hello.py”, the main file name is
+“hello”, and the extension name is “py”, indicating that the file is a Python source
+file.
+Files are organized using folders, which are containers of files and other folders.
+In a file system, folders are organized in a hierarchy. There is only one folder that is
+not contained by another folder, and it is called the root folder. Except for the root
+folder, each folder belongs to another folder, which is typically called the parent
+folder of the folder. Such a hierarchical structure is called a tree. An example is
+shown in Fig. 1.3, where the folders and files form an upside-down tree from the root
+folder.
+In the tree structure of a file system, each file can be identified by the path from
+the root folder to the file. For example, in Fig. 1.3, file1 can be identified by the path
+root → folder1 → file1, and file3 can be identified by the path root → folder1 →
+folder4 → folder7 → file3. The use of path names to identify files avoids name
+clashes between different folders. For example, even if file6 is renamed as file1 in
+Fig. 1.3, it is still different from root → folder1 → file1.
+In Windows, back slashes (\) are used as the path deliminator symbol. In Linux and
+Max OS, slashes (/) are used as the path deliminator. For example, the path for file6 in
+Fig. 1.3 is written as \ folder3\ folder6\ file6 in Windows, and /folder3/folder6/file6
+in Linux. In all these cases the root folder is written implicitly as the start of the path.
+In Windows, a hard drive can be split into several volumes, each having its own
+tree structure of folders. Windows volumes are denoted by letters, starting from ‘C’,
+followed by a colon (:). For example, ‘C:\folder\file1’ represents a file in the volume
+‘C:’, and is different from the file ‘D:\folder1\file1’
+
+1.2 Preliminaries 5
+Fig. 1.4 Example text console Terminal on a Mac OS
+1.2.3 Text User Interfaces to Operating Systems
+An operating system consists of many components, and one way to categorize operat-
+ing system components is to put them into two types. The first type of OS components
+operates the computer hardware; it is called the kernel in Linux systems, for per-
+forming the “core” functionalities. The second type of OS components provides a
+user interface; it is called the shell in Linux systems.
+OS user interfaces have evolved from text user interface to graphical user inter-
+face (GUI). A text user interface is also called a text console (Fig. 1.4). It works
+by repeatedly displaying a prompt message to the user and waits for a line of user
+command. After receiving a command, it executes the command, displays results
+and feedbacks in text format, and prompts for a next command. On the other hand,
+a GUI (Fig. 1.5) displays information in graphical windows and message boxes, and
+receives user command via buttons, menu items and dialog boxes
+
+6 1 An Introduction to Python and Computer Programming
+Compared with a text console, a GUI is more intuitive to use, not requiring one
+to remember the names of text commands. However, a text console is often more
+convenient for executing complex commands with many parameters, because such
+advanced commands may not have GUI at all, and even if they do, entering a row
+of parameters in text can be faster than choosing and entering into text boxes in a
+large dialog window. With respect to programming, text input and output can be
+much easier to program compared to GUI. As a result, text is the default input and
+output mechanism for many programming languages, including Python, and basic
+knowledge of the text console is highly useful for learning programming.
+In Windows, Linux and Mac OS, the text console is a program. In Windows, the
+program is named ‘Command Line’; in Linux, the program is named ‘Terminal’ or
+‘Console’; in Mac OS, the program is named ‘Terminal’ (Fig. 1.4). Because the text
+console commands of Linux and Mac OS are mostly similar, they are not introduced
+separately in this book.
+After being launched, Command Line can show the following message:
+C :\ Users \ yue_zhang >
+After being launched, Terminal can show the following message:
+Zhangs - MacBook - Pro :~ y u e _ z h a n g $
+In the examples above, ‘C:\Users\yue_zhang>’ and ‘Zhangs-MacBook-Pro:
+∼ yue_zhang$’ are the prompt messages, after which a command can be entered.
+Each text command finishes with a new line (the Enter key).
+In a text console, all commands are entered in a current working folder, which is
+a folder in the file system. By default, all the commands that are entered into the text
+console operates on the current working folder. Without a full path being specified,
+all file names entered into the text console also refer to files in the current working
+folder by default. The current working folder is typically reflected by the prompt
+message. In Windows, the following command shows its full path:
+C :\ Users \ yue_zhang > cd
+C :\ Users \ y u e _ z h a n g
+In Linux and Mac OS, the following command shows its full path:
+Zhangs - MacBook - Pro :~ y u e _ z h a n g $ pwd
+/ Users / y u e _ z h a n g
+By default, C:\Users\yue_zhang and /Users/yue_zhang are the home folder of
+the user yue_zhang under Windows and Mac OS, respectively. Under Linux, the home
+folder can be /home/yue_zhang.
+One can list out the files and folders contained in the current working folder. In
+Windows, the command is dir:
+C :\ Users \ yue_zhang > dir
+2 0 1 5 / 0 3 / 3 0 15:30 < DIR > .
+2 0 1 5 / 0 3 / 3 0 15:30 < DIR > ..
+2 0 1 5 / 0 3 / 1 2 1 0 : 1 5 < DIR > C o n t a c t s
+2 0 1 5 / 0 3 / 3 0 1 4 : 4 9 < DIR > D e s k t o p
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > D o c u m e n t s
+
+1.2 Preliminaries 7
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > D o w n l o a d s
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > F a v o r i t e s
+In Linux and Mac OS, the command is ls:
+Zhangs - MacBook - Pro :~ y u e _ z h a n g $ ls
+A p p l i c a t i o n s D o w n l o a d s M o v i e s P u b l i c
+octave - core
+D e s k t o p D r o p b o x M u s i c R e s e a r c h
+D o c u m e n t s L i b r a r y P i c t u r e s T e a c h i n g
+All the commands are by default executed in the current working folder.
+For example, the command ‘mkdir <folder_name>’ creates a new folder named
+‘<folder_name>’ in the current folder. An example in Windows is shown below.
+C :\ Users \ yue_zhang > mkdir n e w f o l d e r
+C :\ Users \ yue_zhang > dir
+2 0 1 5 / 0 3 / 3 0 15:30 < DIR > .
+2 0 1 5 / 0 3 / 3 0 15:30 < DIR > ..
+2 0 1 5 / 0 3 / 1 2 1 0 : 1 5 < DIR > C o n t a c t s
+2 0 1 5 / 0 3 / 3 0 1 4 : 4 9 < DIR > D e s k t o p
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > D o c u m e n t s
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > D o w n l o a d s
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > F a v o r i t e s
+2 0 1 5 / 0 3 / 3 0 15:26 < DIR > n e w f o l d e r
+The command ‘rmdir <folder_name>’ removes the empty folder ‘<folder_
+name>’ from the current folder:
+C :\ Users \ yue_zhang > rmdir n e w f o l d e r
+C :\ Users \ yue_zhang > dir
+2 0 1 5 / 0 3 / 3 0 15:30 < DIR > .
+2 0 1 5 / 0 3 / 3 0 15:30 < DIR > ..
+2 0 1 5 / 0 3 / 1 2 1 0 : 1 5 < DIR > C o n t a c t s
+2 0 1 5 / 0 3 / 3 0 1 4 : 4 9 < DIR > D e s k t o p
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > D o c u m e n t s
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > D o w n l o a d s
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > F a v o r i t e s
+The commands mkdir and rmdir apply to Linux and Mac OS also.
+One can change the current working folder by using the command ‘cd
+<folder_name>’, which enters the folder <folder_name>. For example,
+C :\ Users \ yue_zhang > dir
+2 0 1 5 / 0 3 / 3 0 15:30 < DIR > .
+2 0 1 5 / 0 3 / 3 0 15:30 < DIR > ..
+2 0 1 5 / 0 3 / 1 2 1 0 : 1 5 < DIR > C o n t a c t s
+2 0 1 5 / 0 3 / 3 0 1 4 : 4 9 < DIR > D e s k t o p
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > D o c u m e n t s
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > D o w n l o a d s
+2 0 1 5 / 0 3 / 1 2 10:15 < DIR > F a v o r i t e s
+C :\ Users \ yue_zhang > cd C o n t a c t s
+C :\ Users \ y u e _ z h a n g \ Contacts 
+
+8 1 An Introduction to Python and Computer Programming
+Two special folder names are ‘.’ and ‘..’, which represent the current working
+folder and its parent folder, respectively. ‘cd .’ does nothing, for the working folder
+is changed to the same folder. ‘cd ..’ enters the parent folder, the folder one level
+up towards the root.
+C :\ Users \ yue_zhang > cd
+C :\ Users \ y u e _ z h a n g
+C :\ Users \ yue_zhang > cd ..
+C :\ Users >
+In all the examples above, <folder_name> is a folder name in the current working
+folder. This type of path is called a relative path. On the other hand, absolute paths,
+which specify a folder from the root, can also be used for <folder_name>. For
+example,
+C :\ Users \ yue_zhang > cd
+C :\ Users \ y u e _ z h a n g
+C :\ Users \ yue_zhang > cd \ Users \ y u e _ z h a n g \ D e s k t o p
+C :\ Users \ y u e _ z h a n g \ Desktop >
+The syntax of the cd <folder> command is the same in Linux and Mac OS as in
+Windows. However, if cd is used without specifying <folder>, the functionality is
+showing the current working directory on Windows, while entering the home folder
+on Linux and Mac OS.
+1.2.4 The Python Application Program
+Python programs are executed by the Python application program, or Python in
+short, which is a software program like TextEdit and Firefox. Python can be down-
+loaded from the official Python website www.python.org, and installed into a com-
+puter. There are two commonly used dialects of Python: Python 2 and Python 3. This
+book uses Python 2, in which most existing Python programs are written. However,
+the underlying mechanisms are mostly the same for both Python 2 and Python 3, and
+they are only mildly different in syntax for certain functionalities.
+The Python installer program allows the specification of a path, in which Python
+is installed. By default, the folder is C:\Python2.7 on Windows, where 2.7 is the
+version number of Python. After installation, the executable Python application is
+the file:
+C :\ P y t h o n 2 .7\ p y t h o n . exe
+On Linux and Mac OS, Python is typically pre-installed, and can be found at
+/ usr / bin / p y t h o n 2 .7
+Python can be executed by setting the current working folder to the folder con-
+taining Python:
+
+1.2 Preliminaries 9
+c :\ Users \ yue_zhan g > cd \ P y t h o n 2 .7
+C :\ P y t h o n 2 .7 > p y t h o n
+Python 2.7.1 ( r271 :86832 , Jul 31 2011 , 1 9 : 3 0 : 5 3 ) [ MSC
+v .1500 32 bit ( Intel ) ] on win32
+Type " help " , " c o p y r i g h t " , " c r e d i t s " or " l i c e n s e " for
+more i n f o r m a t i o n .
+> > >
+By typing ‘python’, Windows executes the file python.exe in the current working
+folder, which leads to the interactive execution mode of Python.
+On Linux and Mac OS, Python can be executed by typing ‘./Python2.7’ in the
+current working folder.
+Zhangs - MacBook - Pro :~ y u e _ z h a n g $ cd / usr / bin
+Zhangs - MacBook - Pro :~ y u e _ z h a n g $ ./ p y t h o n 2 .7
+Python 2.7.1 ( r271 :86832 , Jul 31 2011 , 1 9 : 3 0 : 5 3 )
+[ GCC 4.2.1 ( Based on Apple Inc . build 5658) ( LLVM
+build 2 3 3 5 . 1 5 . 0 0 ) ] on l i n u x 2
+Type " help " , " c o p y r i g h t " , " c r e d i t s " or " l i c e n s e " for
+more i n f o r m a t i o n .
+> > >
+Note that ‘./’ must be used when executing a program in the current working
+folder in Linux and Mac OS. To exit the interactive Python application, press and
+hold the [Ctrl] key and press the D key (i.e. press Ctrl-D).
+( c o n t i n u e d from above )
+> > > ^ D
+Zhangs - MacBook - Pro :~ y u e _ z h a n g $
+1.2.5 Python and Environment Variables
+The content of this section is not typically necessary to know, but can be useful when
+customizing Python.
+Environment variables are a set of settings that an operating system uses to
+configure itself. For Windows, the current environment variables can be listed and
+modified by clicking Start → Control Panel → System → Advanced system settings.
+In the Advanced tab, select Environment Variables, as shown in Fig. 1.6.
+For Linux and Mac OS, the current environment variables can be viewed and
+modified by editing the file $PATH.
+The PATH environment variable stores a list of paths from which the operating
+system searches for an executable program automatically. If the specified executable
+is not in the current working folder (Windows), or the path (e.g. ‘./’; ‘/Desktop/’) is
+not specified (Linux and Mac OS), the operating system will search the paths in the
+PATH environment variable for the executable.
+Python is typically added to the PATH environment variable when installed. There-
+fore, it should be possible to execute python at any path. In the rare cases when the
+operating system cannot find the python executable program, the path in which
+
+Python is installed (e.g. C:\Python 2.7) can be added to the list of folders in the
+PATH environment variable. A restart of the operating system may be necessary for
+the change to take effect.
+The PYTHON_PATH environment variable is a second environment variable
+relevant to Python. It also stores a list of paths that are useful to Python specifically,
+rather than for the operating system. In particular, when Python loads library modules
+(Chap. 3), it will search the paths in PYTHON_PATH for them.
+On Windows, PYTHON_PATH can be set by following Fig. 1.6. On Linux and
+Mac OS, it can be set by modifying the file .bash_profile under the home folder,
+adding the line
+e x p o r t P Y T H O N _ P A T H = $ P Y T H O N _ P A T H : path1 : path2 : path3
+where path1, path2 and path3 are module paths.
+Exercises
+1. Which of the following can be achieved using Python programming?
+(a) Mathmatical calculations;
+(b) A Windows GUI application;
+(c) Controlling a robotic arm;
+(d) Web crawling;
+(e) A machine-leaning system that can fly a helicopter;
+(f) Simulation of large-scale experiments in physics;
+(g) A game in Android
+(h) A operating system from scratch.
+2. What are the three main components of a computer?
+3. List three programming languages and compare their differences. Why are there
+many programming languages?
+4. How can text user interfaces be launched on Windows, Linux and Mac OS?
+
+1.2 Preliminaries 11
+5. Perform the following in a text user interface.
+(a) Show the current working folder;
+(b) Enter the home folder;
+(c) Enter the Desktop folder;
+(d) Create a new folder under the name New under the Desktop folder, and verify
+that it appears on the graphical desktop;
+6. Launch the python program, and then exit it
+
+
